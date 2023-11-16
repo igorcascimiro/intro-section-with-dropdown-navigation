@@ -1,0 +1,90 @@
+@media(max-width:1100px) {
+
+    .menu {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    label {
+        z-index: 1;
+    }
+
+    .open {
+        display: block;
+    }
+
+    input:checked~label .open {
+        display: none;
+    }
+
+    input:checked~label .close {
+        display: block;
+    }
+
+    input:checked~div  {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 250px;
+        position: absolute;
+        background-color: var(--almost-white);
+        justify-content: flex-start;
+        top: 0px;
+        right: 0px;
+        padding: 30px;
+        gap: 30px;
+    } 
+
+    .menu-hamburguer .navigation {
+        flex-direction: column;
+        margin-top: 60px;
+        gap: 25px;
+    }
+
+    .submenu-box {
+        padding-top: 0px;
+    } 
+    
+    .header .navigation li:hover .submenu-box{
+        display: block;
+        position: relative;
+    } 
+
+    .header .navigation li:hover .submenu {
+        position: relative;
+        padding: 25px;
+        box-shadow: none;
+        top: 0px;
+        padding: 25px 25px 0px 25px;
+    }
+
+    .menu-hamburguer .user-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+    } */
+
+    .menu-hamburguer .user-section li {
+        width: 100%;
+    }
+
+    .menu-hamburguer .user-section .register {
+        margin-left: 0px;
+    }
+
+    .menu-hamburguer::before {
+        content: '';
+        width: 100vw;
+        height: 100%;
+        background-color: black;
+        position: absolute;
+        right:0;
+        top:0px;
+        opacity: 0.7;
+        z-index: -1;
+    }
+
+    picture, h1, main ul, main p {
+        z-index: -2;
+    }
+}

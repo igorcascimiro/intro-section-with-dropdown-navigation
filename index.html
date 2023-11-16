@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="/scr/css/reset.css">
+  <link rel="stylesheet" href="/scr/css/style.css">
+  <link rel="stylesheet" href="/scr/css/variables.css">
+  <link rel="stylesheet" href="/scr/css/responsive.css">
+  <link rel="stylesheet" href="/scr/css/menu-hamburguer.css">
+</head>
+
+<body>
+  <header class="header">
+    <img src="./scr/images/logo.svg" alt="logo">
+
+    <div class="menu">
+
+      <input type="checkbox" id="icon-hamburguer">
+      <label for="icon-hamburguer">
+          <!-- <span class="hamburguer"></span> -->
+          <img class="hamburguer open" src="./scr/images/icon-menu.svg" alt="icon-menu">
+          <img class="hamburguer close" src="./scr/images/icon-close-menu.svg" alt="icon-menu">
+      </label>
+
+      <div class="menu-hamburguer">
+        <nav>
+          <ul class="navigation">
+            <li>
+              <a class="nav-section" href="">Features <img class="arrow" src="./scr/images/icon-arrow-down.svg"
+                  alt="arrow-down"></a>
+              <div class="submenu-box">
+                <ul class="submenu features">
+                  <li><a href="#"><img src="./scr/images/icon-todo.svg" alt="icon-todo">Todo List</a></li>
+                  <li><a href="#"><img src="./scr/images/icon-calendar.svg" alt="icon-calendar">Calendar</a></li>
+                  <li><a href="#"><img src="./scr/images/icon-reminders.svg" alt="icon-reminder">Reminders</a></li>
+                  <li><a href="#"><img src="./scr/images/icon-planning.svg" alt="icon-planning">Planning</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="nav-section" href="#">Company <img class="arrow" src="./scr/images/icon-arrow-down.svg"
+                  alt="arrow-down"></a>
+                  <div class="submenu-box">
+                    <ul class="submenu company">
+                      <li><a href="#">History</a></li>
+                      <li><a href="#">Our Team</a></li>
+                      <li><a href="#">Blog</a></li>
+                    </ul>
+                  </div>
+            </li>
+            <li><a class="nav-section" href="#">Careers</a></li>
+            <li><a class="nav-section" href="#">About</a></li>
+          </ul>
+        </nav>
+
+        <div class="user-section">
+          <a href="#" class="login">Login</a>
+          <a href="#" class="register">Register</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="info">
+
+      <h1 class="title">Make remote work</h1>
+      <p class="description">Get your team in sync no matter your location. Streaming processes, create team rituals,
+        and watch productivity soar.</p>
+      <a href="#" class="learn-more">Learn more</a>
+
+      <ul class="client-list">
+        <li><img src="./scr/images/client-databiz.svg" alt="databiz-logo"></li>
+        <li><img src="./scr/images/client-audiophile.svg" alt="audiophile-logo"></li>
+        <li><img src="./scr/images/client-meet.svg" alt="meet-logo"></li>
+        <li><img src="./scr/images/client-maker.svg" alt="maker-logo"></li>
+      </ul>
+    </div>
+
+    <picture>
+      <source media="(max-width: 1100px)" srcset="./scr/images/image-hero-mobile.png">
+      <img src="./scr/images/image-hero-desktop.png" alt="imagem-desktop">
+    </picture>
+  </main>
+</body>
+
+</html>
