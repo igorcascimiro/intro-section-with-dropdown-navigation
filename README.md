@@ -22,11 +22,11 @@ Users should be able to:
 
 *Desktop:*
 
-![Animação-Desktop](https://github.com/igorcascimiro/intro-section-with-dropdown-navigation/assets/138637092/1115bfea-4fe7-4b69-afd8-7149e1d3b73f)
+![Animação-desktop](https://github.com/igorcascimiro/intro-section-with-dropdown-navigation/assets/138637092/0e3258cc-d14d-4535-a216-71881df6aba0)
 
 *Mobile:*
 
-![Animação-Mobile](https://github.com/igorcascimiro/intro-section-with-dropdown-navigation/assets/138637092/93acfd48-2048-48f9-83aa-115d6143acde)
+![Animação-mobile](https://github.com/igorcascimiro/intro-section-with-dropdown-navigation/assets/138637092/7fe9837a-5079-40be-9ee2-4c6cfbb34dfb)
 
 ### Built with
 
