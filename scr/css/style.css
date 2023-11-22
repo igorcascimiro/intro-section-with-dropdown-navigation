@@ -64,11 +64,8 @@ input {
 
 .header .navigation .submenu {
     display: none;
+    margin-top: 20px;
 }
-
- .submenu-box {
-    padding-top: 20px;
-} 
 
 .header .navigation li:hover .submenu-box{
     display: block;
