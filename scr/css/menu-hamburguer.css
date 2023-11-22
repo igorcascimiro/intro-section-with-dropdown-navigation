@@ -56,8 +56,11 @@
         box-shadow: none;
         top: 0px;
         padding: 25px 25px 0px 25px;
-        margin-top: 0px;
     }
+
+    .header .navigation .submenu {
+    margin-top: 0px;
+}
 
     .menu-hamburguer .user-section {
         display: flex;
